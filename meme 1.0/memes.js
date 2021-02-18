@@ -8,7 +8,7 @@ document.querySelector("#dark").addEventListener('click' ,dark)
 document.querySelector("#darkSide").addEventListener('click' ,dark)
 
 
-//When the button(btn-danger) is click it runs the function memeIt
+//When the button with the ID  is click it runs the function memeIt
 document.querySelector("#clickMe").addEventListener('click' ,memeIt)
 
 
@@ -52,7 +52,7 @@ function memeIt(memes) {
 		//Using .createElement we will create an <img> tag on our html
 		
 		img.setAttribute('class', 'img-fluid');
-		//Using .setAttribute we will set its class to 'img-fluid'
+		//Using .setAttribute we will set its class to 'img-fluid' <img class = "img-fluid">
 		
 		img.setAttribute('style', 'max-height: 50%; max-width: 50%');
 		//Using .setAttribute we will set its style to have a max height and 
